@@ -18,7 +18,7 @@ const Loading = ({
         if(json.ok) {
             // const id = json.endpoint.split('/');
             // console.log(id[id.length - 1])
-            updateData(json.endpoint + '?_shape=objects&_size=1000')
+            updateData(json.endpoint + '?_shape=objects&_size=10000')
         } else {
             Error()
         }
